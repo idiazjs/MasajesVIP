@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Masajistas - Masajes VIP</title>
+    <title data-translate="masseuses-title">Masajistas - Masajes VIP</title>
     <link href="styles.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Swiper.js CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-800 flex flex-col min-h-screen">
 <!-- Header Container -->
@@ -16,92 +14,47 @@
 <!-- Main Content -->
 <main class="flex-grow container mx-auto px-4 py-8 mt-20">
     <section class="text-center mb-12">
-        <h2 class="text-2xl md:text-3xl font-semibold text-white mb-4">Nuestras Masajistas</h2>
-        <p class="text-gray-300 max-w-2xl mx-auto leading-relaxed mb-8">
+        <h2 class="text-2xl md:text-3xl font-semibold text-white mb-4" data-translate="masseuses-heading">Nuestras Masajistas</h2>
+        <p class="text-gray-300 max-w-2xl mx-auto leading-relaxed mb-4" data-translate="masseuses-p1">
             Conoce a nuestro equipo de profesionales dedicadas a ofrecerte una experiencia única, con técnica, presencia y profesionalismo.
         </p>
-        <!-- Swiper Carousel -->
-        <div class="swiper masajistas-carousel">
-            <div class="swiper-wrapper">
-                <!-- Masajista: Ana -->
-                <div class="swiper-slide">
-                    <div class="massage-box bg-gray-700 shadow-md rounded-lg p-6">
-                        <h3 class="text-lg font-semibold text-white mb-4 text-center">Ana</h3>
-                        <a href="masajista-ana.html">
-                            <img src="https://via.placeholder.com/300" alt="Masajista Ana" class="w-full h-48 object-cover mx-auto rounded-md">
-                        </a>
-                        <div class="flex justify-center mt-4">
-                            <a href="https://wa.me/5512345678?text=Quiero%20hacer%20cita%20con%20esta%20masajista%3A%20Ana" target="_blank" class="whatsapp-btn inline-block bg-green-500 text-white font-semibold py-2 px-4 rounded-lg">
-                                ¡La quiero!
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Masajista: Sofía -->
-                <div class="swiper-slide">
-                    <div class="massage-box bg-gray-700 shadow-md rounded-lg p-6">
-                        <h3 class="text-lg font-semibold text-white mb-4 text-center">Sofía</h3>
-                        <a href="masajista-sofia.html">
-                            <img src="https://via.placeholder.com/300" alt="Masajista Sofía" class="w-full h-48 object-cover mx-auto rounded-md">
-                        </a>
-                        <div class="flex justify-center mt-4">
-                            <a href="https://wa.me/5512345678?text=Quiero%20hacer%20cita%20con%20esta%20masajista%3A%20Sof%C3%ADa" target="_blank" class="whatsapp-btn inline-block bg-green-500 text-white font-semibold py-2 px-4 rounded-lg">
-                                ¡La quiero!
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Masajista: Luna -->
-                <div class="swiper-slide">
-                    <div class="massage-box bg-gray-700 shadow-md rounded-lg p-6">
-                        <h3 class="text-lg font-semibold text-white mb-4 text-center">Luna</h3>
-                        <a href="masajista-luna.html">
-                            <img src="https://via.placeholder.com/300" alt="Masajista Luna" class="w-full h-48 object-cover mx-auto rounded-md">
-                        </a>
-                        <div class="flex justify-center mt-4">
-                            <a href="https://wa.me/5512345678?text=Quiero%20hacer%20cita%20con%20esta%20masajista%3A%20Luna" target="_blank" class="whatsapp-btn inline-block bg-green-500 text-white font-semibold py-2 px-4 rounded-lg">
-                                ¡La quiero!
-                            </a>
-                        </div>
-                    </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <div class="massage-box bg-gray-700 shadow-md rounded-lg p-6">
+                <h3 class="text-lg font-semibold text-white mb-4 text-center" data-translate="masseuse-ana">Ana</h3>
+                <a href="masajista-ana.html">
+                    <img src="https://via.placeholder.com/300" alt="Masajista Ana" class="w-full h-48 object-cover mx-auto rounded-md">
+                </a>
+                <div class="flex justify-center mt-4">
+                    <a href="https://wa.me/5512345678?text=Quiero%20hacer%20cita%20con%20esta%20masajista%3A%20Ana" data-whatsapp="whatsapp-ana" class="whatsapp-btn inline-block bg-green-500 text-white font-semibold py-2 px-4 rounded-lg" data-translate="book-masseuse">¡La quiero!</a>
                 </div>
             </div>
-            <!-- Navigation buttons -->
-            <div class="swiper-button-prev text-white"></div>
-            <div class="swiper-button-next text-white"></div>
+            <div class="massage-box bg-gray-700 shadow-md rounded-lg p-6">
+                <h3 class="text-lg font-semibold text-white mb-4 text-center" data-translate="masseuse-sofia">Sofía</h3>
+                <a href="masajista-sofia.html">
+                    <img src="https://via.placeholder.com/300" alt="Masajista Sofía" class="w-full h-48 object-cover mx-auto rounded-md">
+                </a>
+                <div class="flex justify-center mt-4">
+                    <a href="https://wa.me/5512345678?text=Quiero%20hacer%20cita%20con%20esta%20masajista%3A%20Sof%C3%ADa" data-whatsapp="whatsapp-sofia" class="whatsapp-btn inline-block bg-green-500 text-white font-semibold py-2 px-4 rounded-lg" data-translate="book-masseuse">¡La quiero!</a>
+                </div>
+            </div>
+            <div class="massage-box bg-gray-700 shadow-md rounded-lg p-6">
+                <h3 class="text-lg font-semibold text-white mb-4 text-center" data-translate="masseuse-luna">Luna</h3>
+                <a href="masajista-luna.html">
+                    <img src="https://via.placeholder.com/300" alt="Masajista Luna" class="w-full h-48 object-cover mx-auto rounded-md">
+                </a>
+                <div class="flex justify-center mt-4">
+                    <a href="https://wa.me/5512345678?text=Quiero%20hacer%20cita%20con%20esta%20masajista%3A%20Luna" data-whatsapp="whatsapp-luna" class="whatsapp-btn inline-block bg-green-500 text-white font-semibold py-2 px-4 rounded-lg" data-translate="book-masseuse">¡La quiero!</a>
+                </div>
+            </div>
         </div>
     </section>
 </main>
 
 <!-- Footer -->
 <footer class="bg-gray-800 text-white text-center py-4">
-    <p>&copy; 2025 Masajes VIP. Todos los derechos reservados.</p>
+    <p data-translate="footer">&copy; 2025 Masajes VIP. Todos los derechos reservados.</p>
 </footer>
 
-<!-- Swiper.js Script -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-    // Inicializar Swiper
-    const swiper = new Swiper('.masajistas-carousel', {
-        loop: true, // Carrusel infinito
-        slidesPerView: 1, // 1 diapositiva en móvil
-        spaceBetween: 16, // Espacio entre diapositivas
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        breakpoints: {
-            640: { // sm (tablets)
-                slidesPerView: 2,
-                spaceBetween: 20,
-            },
-            1024: { // md (escritorio)
-                slidesPerView: 3,
-                spaceBetween: 24,
-            },
-        },
-    });
-</script>
 <script src="script.js"></script>
 </body>
 </html>
