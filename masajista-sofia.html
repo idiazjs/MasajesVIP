@@ -6,6 +6,8 @@
     <title data-translate="sofia-title">Sofía - Masajes VIP</title>
     <link href="styles.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Swiper.js CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-800 flex flex-col min-h-screen">
 <!-- Header Container -->
@@ -15,12 +17,24 @@
 <main class="flex-grow container mx-auto px-4 py-8 mt-20">
     <section class="mb-12">
         <h2 class="text-2xl md:text-3xl font-semibold text-white text-center mb-4" data-translate="sofia-heading">Conoce a Sofía</h2>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-6">
-            <img src="https://via.placeholder.com/300" alt="Sofía Foto 1" class="w-full h-48 object-cover rounded-md">
-            <img src="https://via.placeholder.com/300" alt="Sofía Foto 2" class="w-full h-48 object-cover rounded-md">
-            <img src="https://via.placeholder.com/300" alt="Sofía Foto 3" class="w-full h-48 object-cover rounded-md">
+        <!-- Swiper Carousel for Photos -->
+        <div class="swiper photos-carousel">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="https://via.placeholder.com/300" alt="Sofía Foto 1" class="w-full h-48 object-cover rounded-md">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://via.placeholder.com/300" alt="Sofía Foto 2" class="w-full h-48 object-cover rounded-md">
+                </div>
+                <div class="swiper-slide">
+                    <img src="https://via.placeholder.com/300" alt="Sofía Foto 3" class="w-full h-48 object-cover rounded-md">
+                </div>
+            </div>
+            <!-- Navigation buttons -->
+            <div class="swiper-button-prev text-white"></div>
+            <div class="swiper-button-next text-white"></div>
         </div>
-        <div class="bg-gray-700 shadow-md rounded-lg p-6">
+        <div class="bg-gray-700 shadow-md rounded-lg p-6 mt-8">
             <h3 class="text-xl font-semibold text-white mb-2 text-center" data-translate="sofia-details-title">Detalles de Sofía</h3>
             <p class="text-gray-300 leading-relaxed text-justify" data-translate="sofia-details">
                 <strong>Edad:</strong> 25 años<br>
@@ -40,6 +54,30 @@
     <p data-translate="footer">&copy; 2025 Masajes VIP. Todos los derechos reservados.</p>
 </footer>
 
+<!-- Swiper.js Script -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    // Inicializar Swiper
+    const swiper = new Swiper('.photos-carousel', {
+        loop: true, // Carrusel infinito
+        slidesPerView: 1, // 1 diapositiva en móvil
+        spaceBetween: 16, // Espacio entre diapositivas
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+            640: { // sm (tablets)
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            1024: { // md (escritorio)
+                slidesPerView: 3,
+                spaceBetween: 24,
+            },
+        },
+    });
+</script>
 <script src="script.js"></script>
 </body>
 </html>
