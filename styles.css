@@ -34,3 +34,35 @@ body {
 .massage-box img:hover {
     transform: scale(1.05);
 }
+
+/* Estilos para el carrusel */
+.swiper {
+    width: 100%;
+    padding: 0 0 2rem 0; /* Espacio para las flechas */
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #ffffff; /* Flechas blancas */
+    width: 40px;
+    height: 40px;
+    display: none; /* Ocultas en móvil por defecto */
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-size: 20px; /* Tamaño de las flechas */
+}
+
+@media (min-width: 1024px) {
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: block; /* Mostrar flechas en escritorio */
+    }
+}
