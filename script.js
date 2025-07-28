@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Cargar el header
+    // Cargar el header desde la raíz
     fetch('header.html')
         .then(response => response.text())
         .then(data => {

@@ -7,13 +7,30 @@ body {
 }
 
 .nav-link:hover {
-    color: #3b82f6;
+    color: #93c5fd; /* Azul claro para hover en tema oscuro */
 }
 
 .whatsapp-btn {
-    transition: transform 0.2s;
+    transition: transform 0.2s, background-color 0.2s;
 }
 
 .whatsapp-btn:hover {
+    transform: scale(1.05);
+    background-color: #4ade80; /* Verde más claro para hover */
+}
+
+.massage-box {
+    transition: transform 0.2s;
+}
+
+.massage-box:hover {
+    transform: translateY(-4px);
+}
+
+.massage-box img {
+    transition: transform 0.2s;
+}
+
+.massage-box img:hover {
     transform: scale(1.05);
 }
