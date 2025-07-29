@@ -71,11 +71,8 @@ document.addEventListener('DOMContentLoaded', () => {
             'sofia-heading': 'Conoce a Sofía',
             'sofia-details-title': 'Detalles de Sofía',
             'sofia-details': '<strong>Edad:</strong> 25 años<br><strong>Altura:</strong> 1.70 m<br><strong>Medidas:</strong> 58-88-60<br><strong>Detalles:</strong> Sofía combina elegancia y audacia, con una mirada penetrante que despierta la curiosidad y el deseo. Su cuerpo esculpido y su toque experto en masajes eróticos crean una experiencia intensa y provocadora. Con un carisma natural, Sofía te guía hacia un estado de placer puro, donde cada movimiento está diseñado para encender tus instintos más profundos.',
-            'luna-title': 'Luna - Masajes VIP',
-            'luna-heading': 'Conoce a Luna',
-            'luna-details-title': 'Detalles de Luna',
-            'luna-details': '<strong>Edad:</strong> 30 años<br><strong>Altura:</strong> 1.68 m<br><strong>Medidas:</strong> 62-92-62<br><strong>Detalles:</strong> Luna es la encarnación de la sensualidad sofisticada. Su energía magnética y su toque intuitivo te llevan a un estado de relajación y excitación simultáneas. Experta en combinar técnicas tántricas y eróticas, Luna crea un ambiente donde te sientes deseado y comprendido, despertando tus instintos con cada caricia y mirada.',
-            'footer': '&copy; 2025 Masajes VIP. Todos los derechos reservados.'
+            'footer': '&copy; 2025 Masajes VIP. Todos los derechos reservados.',
+            'book-service': '¡Lo quiero!'
         },
         en: {
             'nav-home': 'Home',
@@ -147,11 +144,8 @@ document.addEventListener('DOMContentLoaded', () => {
             'sofia-heading': 'Meet Sofía',
             'sofia-details-title': 'Sofía’s Details',
             'sofia-details': '<strong>Age:</strong> 25 years<br><strong>Height:</strong> 1.70 m<br><strong>Measurements:</strong> 58-88-60<br><strong>Details:</strong> Sofía combines elegance and boldness, with a penetrating gaze that sparks curiosity and desire. Her sculpted body and expert touch in erotic massages create an intense and provocative experience. With natural charisma, Sofía guides you to a state of pure pleasure, where every movement is designed to ignite your deepest instincts.',
-            'luna-title': 'Luna - Masajes VIP',
-            'luna-heading': 'Meet Luna',
-            'luna-details-title': 'Luna’s Details',
-            'luna-details': '<strong>Age:</strong> 30 years<br><strong>Height:</strong> 1.68 m<br><strong>Measurements:</strong> 62-92-62<br><strong>Details:</strong> Luna embodies sophisticated sensuality. Her magnetic energy and intuitive touch lead you to a state of simultaneous relaxation and excitement. An expert in combining tantric and erotic techniques, Luna creates an atmosphere where you feel desired and understood, awakening your instincts with every caress and gaze.',
-            'footer': '&copy; 2025 Masajes VIP. All rights reserved.'
+            'footer': '&copy; 2025 Masajes VIP. All rights reserved.',
+            'book-service': '¡I want it!'
         }
     };
 
