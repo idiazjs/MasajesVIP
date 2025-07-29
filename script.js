@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const translations = {
         es: {
             'nav-home': 'Inicio',
-            'nav-tantric': 'Masajes Tántricos',
-            'nav-erotic': 'Masajes Eróticos',
+            'nav-tantric': 'Tántricos',
+            'nav-erotic': 'Eróticos',
             'nav-masseuses': 'Masajistas',
             'nav-contact': 'Contacto',
             'index-title': 'Inicio - Masajes VIP',
@@ -76,8 +76,8 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         en: {
             'nav-home': 'Home',
-            'nav-tantric': 'Tantric Massages',
-            'nav-erotic': 'Erotic Massages',
+            'nav-tantric': 'Tantric',
+            'nav-erotic': 'Erotic',
             'nav-masseuses': 'Masseuses',
             'nav-contact': 'Contact',
             'index-title': 'Home - Masajes VIP',
