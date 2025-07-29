@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const key = link.getAttribute('data-whatsapp');
                     if (translations[lang][key]) {
                         const message = encodeURIComponent(translations[lang][key]);
-                        link.setAttribute('href', `https://wa.me/5512345678?text=${message}`);
+                        link.setAttribute('href', `https://wa.me/5528403686?text=${message}`);
                     }
                 });
 
