@@ -66,13 +66,33 @@ document.addEventListener('DOMContentLoaded', () => {
             'ana-title': 'Ana - Masajes VIP',
             'ana-heading': 'Conoce a Ana',
             'ana-details-title': 'Detalles de Ana',
-            'ana-details': '<strong>Detalles:</strong> Ana es una experta en crear conexiones profundas, con una presencia cálida y seductora que te envuelve desde el primer momento. Su sonrisa magnética y su habilidad para leer tus deseos hacen de cada sesión un viaje inolvidable. Especialista en masajes tántricos, Ana combina técnica y sensualidad para despertar tus sentidos más profundos, ofreciendo una experiencia que equilibra relajación y excitación.',
-            // 'ana-details': '<strong>Edad:</strong> 28 años<br><strong>Altura:</strong> 1.65 m<br><strong>Medidas:</strong> 60-90-60<br><strong>Detalles:</strong> Ana es una experta en crear conexiones profundas, con una presencia cálida y seductora que te envuelve desde el primer momento. Su sonrisa magnética y su habilidad para leer tus deseos hacen de cada sesión un viaje inolvidable. Especialista en masajes tántricos, Ana combina técnica y sensualidad para despertar tus sentidos más profundos, ofreciendo una experiencia que equilibra relajación y excitación.',
+            'ana-details': '<strong>Edad:</strong> 26 años<br>\n' +
+                '                <strong>Complexión:</strong> Delgada, fitness <br>\n' +
+                '                <strong>Tez:</strong> Morena<br>\n' +
+                '                <strong>Altura:</strong> 1.55 m<br>\n' +
+                '                <strong>Tatuajes:</strong> No <br>\n' +
+                '                <strong>Detalles:</strong> La dulzura y energía sensual de Ana convertirán tu visita en una vivencia\n' +
+                '                inolvidable. Es una mujer atenta, delicada y siempre dispuesta a complacerte; contigo, todo gira en\n' +
+                '                torno a tu bienestar. Tu satisfacción y disfrute son su prioridad. <br>\n' +
+                '\n' +
+                '                Déjate envolver por su toque cálido y su técnica experta en masajes tántricos, donde fusiona movimientos\n' +
+                '                orientales y el roce íntimo de su cuerpo, despertando cada rincón de tu sensibilidad. Con ella,\n' +
+                '                descubrirás nuevas formas de sentir.',
             'sofia-title': 'Sofía - Masajes VIP',
             'sofia-heading': 'Conoce a Sofía',
             'sofia-details-title': 'Detalles de Sofía',
-            'sofia-details': '<strong>Detalles:</strong> Sofía combina elegancia y audacia, con una mirada penetrante que despierta la curiosidad y el deseo. Su cuerpo esculpido y su toque experto en masajes eróticos crean una experiencia intensa y provocadora. Con un carisma natural, Sofía te guía hacia un estado de placer puro, donde cada movimiento está diseñado para encender tus instintos más profundos.',
-            // 'sofia-details': '<strong>Edad:</strong> 25 años<br><strong>Altura:</strong> 1.70 m<br><strong>Medidas:</strong> 58-88-60<br><strong>Detalles:</strong> Sofía combina elegancia y audacia, con una mirada penetrante que despierta la curiosidad y el deseo. Su cuerpo esculpido y su toque experto en masajes eróticos crean una experiencia intensa y provocadora. Con un carisma natural, Sofía te guía hacia un estado de placer puro, donde cada movimiento está diseñado para encender tus instintos más profundos.',
+            'sofia-details': ' <strong>Edad:</strong> 20 años<br>\n' +
+                '                <strong>Complexión:</strong> Petit<br>\n' +
+                '                <strong>Tez:</strong> Clara<br>\n' +
+                '                <strong>Altura:</strong> 1.50 m<br>\n' +
+                '                <strong>Tatuajes:</strong> Si <br>\n' +
+                '                <strong>Detalles:</strong> Sofía es una joven encantadora, de belleza natural y rasgos delicados. Su\n' +
+                '                carisma e inteligencia la hacen única, y desde el primer momento te atrapará con su presencia. Tiene\n' +
+                '                gran experiencia en el arte del placer, y cada encuentro con ella se convierte en una experiencia\n' +
+                '                envolvente y sensual.<br>\n' +
+                '\n' +
+                '                Prepárate para un momento de total desconexión, donde sus manos suaves aliviarán tus tensiones mientras\n' +
+                '                su energía seductora te envuelve por completo. Con ella, el placer y la relajación van de la mano.',
             'footer': '&copy; 2025 Masajes VIP. Todos los derechos reservados.',
             'book-service': '¡Lo quiero!'
         },
@@ -141,11 +161,33 @@ document.addEventListener('DOMContentLoaded', () => {
             'ana-title': 'Ana - Masajes VIP',
             'ana-heading': 'Meet Ana',
             'ana-details-title': 'Ana’s Details',
-            'ana-details': '<strong>Age:</strong> 28 years<br><strong>Height:</strong> 1.65 m<br><strong>Measurements:</strong> 60-90-60<br><strong>Details:</strong> Ana is an expert in creating deep connections, with a warm and seductive presence that envelops you from the first moment. Her magnetic smile and ability to read your desires make each session an unforgettable journey. Specializing in tantric massages, Ana combines technique and sensuality to awaken your deepest senses, offering an experience that balances relaxation and excitement.',
             'sofia-title': 'Sofía - Masajes VIP',
+            'ana-details': '<strong>Age:</strong> 26 years<br>\n' +
+                '                <strong>Body Type:</strong> Slim, fitness<br>\n' +
+                '                <strong>Skin Tone:</strong> Brunette<br>\n' +
+                '                <strong>Height:</strong> 1.55 m<br>\n' +
+                '                <strong>Tattoos:</strong> No<br>\n' +
+                '                <strong>Details:</strong> Ana\'s sweetness and sensual energy will turn your visit into an unforgettable\n' +
+                '                experience. She is attentive, gentle, and always willing to please; with you, everything revolves around\n' +
+                '                your well-being. Your satisfaction and pleasure are her priority.<br>\n' +
+                '\n' +
+                '                Let yourself be enveloped by her warm touch and expert tantric massage technique, where she blends\n' +
+                '                oriental movements with the intimate caress of her body, awakening every corner of your sensitivity.\n' +
+                '                With her, you will discover new ways of feeling.',
+
             'sofia-heading': 'Meet Sofía',
             'sofia-details-title': 'Sofía’s Details',
-            'sofia-details': '<strong>Age:</strong> 25 years<br><strong>Height:</strong> 1.70 m<br><strong>Measurements:</strong> 58-88-60<br><strong>Details:</strong> Sofía combines elegance and boldness, with a penetrating gaze that sparks curiosity and desire. Her sculpted body and expert touch in erotic massages create an intense and provocative experience. With natural charisma, Sofía guides you to a state of pure pleasure, where every movement is designed to ignite your deepest instincts.',
+            'sofia-details': ' <strong>Age:</strong> 20 years<br>\n' +
+                '                <strong>Body Type:</strong> Petite<br>\n' +
+                '                <strong>Skin Tone:</strong> Fair<br>\n' +
+                '                <strong>Height:</strong> 1.50 m<br>\n' +
+                '                <strong>Tattoos:</strong> Yes<br>\n' +
+                '                <strong>Details:</strong> Sofía is a charming young woman with natural beauty and delicate features. Her\n' +
+                '                charisma and intelligence make her unique, and from the very first moment, she will captivate you with her presence. She\n' +
+                '                has great experience in the art of pleasure, and every encounter with her becomes an immersive and sensual experience.<br>\n' +
+                '\n' +
+                '                Get ready for a moment of total disconnection, where her soft hands will relieve your tension while\n' +
+                '                her seductive energy completely surrounds you. With her, pleasure and relaxation go hand in hand.',
             'footer': '&copy; 2025 Masajes VIP. All rights reserved.',
             'book-service': '¡I want it!'
         }
